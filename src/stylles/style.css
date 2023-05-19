@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+
+
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+.bgImage{
+    height: 100vh;
+    background-image: url('../img/bgImage2.jpg');
+    background-size: cover;
+    opacity: .950;
+}
+.cabecalho{
+    background-color: #ffffff !important;
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+}
+.logo{
+    font-family: 'Work Sans', sans-serif;
+}
+.linha{
+    margin-top: 10%;
+    background-color: rgba(47, 17, 17, 0.450);
+    border-radius: 1em;
+}
+.txt{
+    text-align:flex-start;
+    color: #ffffff;
+    padding: 3%;
+}
+.formulario{
+    text-align:center;
+    color: #ffffff;
+    padding: 3%;
+}
+.txt h2, .formulario h2, .produtos h2, .footer h2{
+    font-size: 3vmax;
+    font-family: 'Work Sans', sans-serif;
+}
+.bgSobre h2{
+    font-size: 3vmax;
+    font-family: 'Work Sans', sans-serif;
+    padding-top: 10px;
+}
+.txt h3,.formulario h3{
+    font-size: 1.8vmax;
+}
+.txt h5{
+    font-size: 1.5vmax;
+    text-align: justify !important;
+}
+.btnCTA{
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+}
+.but{
+    height: 4em;
+    width: 12em;
+    background-color:  #FF3939;
+    border-radius: 5%;
+    border:  rgb(255, 87, 87);
+    font-size: 1vmax;
+}
+.but:hover{
+    background-color: #ffffff;
+    color: #FF3939;
+    text-transform: uppercase;
+}
+.produtos{
+    background-color: #e8e7d2;
+    text-align: center;
+    padding: 4em;
+}
+.linhaProd{
+    padding: 3em 0 2em 0;
+    margin-top: 1em;
+}
+.imgProd{
+    height: 66vh;
+    border-radius: 1em;
+}
+.sobre{
+    background-color: #e8e7d2;
+    padding: 4em;
+}
+.bgSobre{
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 1em;
+}
+.bgSobre p{
+    text-align: justify;
+    padding: 2em;
+}
+.footer h2{
+    padding: 10px;
+    text-align: center;
+}
+.colRedes{
+    text-align: center;
+}
+.listaLinks{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.listaLinks li{
+    margin: 10px 0;
+    padding: 0;
+}
+.listaLinks li a{
+    color:  #2a2a2a ;
+    font-family: 'M PLUS Code Latin', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+}
+.listaLinks li a:hover {
+    text-decoration: underline;
+}
+.colunaCopyRight p{
+    color: #2a2a2a;
+    margin-top: 2em;
+}
